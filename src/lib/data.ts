@@ -52,7 +52,7 @@ export const menuItems: MenuItem[] = [
     allergens: ["soy", "wheat"],
     description: "Crispy chicken tossed in bright orange chili glaze.",
     image: "bg-gradient-to-br from-orange-100 via-white to-red-100",
-    photo: "/images/small-box.png",
+    photo: "/images/orange-chicken.png",
     badge: "Best Seller",
     popular: true
   },
@@ -66,7 +66,7 @@ export const menuItems: MenuItem[] = [
     allergens: ["soy"],
     description: "Tender beef and broccoli in savory garlic soy sauce.",
     image: "bg-gradient-to-br from-red-100 via-white to-emerald-100",
-    photo: "/images/large-box.png",
+    photo: "/images/broccoli-beef.png",
     popular: true
   },
   {
@@ -79,7 +79,7 @@ export const menuItems: MenuItem[] = [
     allergens: ["shellfish", "soy"],
     description: "Sweet glazed shrimp with toasted walnuts and crisp vegetables.",
     image: "bg-gradient-to-br from-sky-100 via-white to-yellow-100",
-    photo: "/images/hero-rice-box.png",
+    photo: "/images/honey-walnut-shrimp.png",
     new: true
   },
   {

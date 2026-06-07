@@ -9,8 +9,8 @@ export function MenuCard({ item }: { item: MenuItem }) {
   const { addItem } = useCart();
   return (
     <article className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
-      <div className={`relative flex h-56 items-center justify-center overflow-hidden bg-cream ${item.image}`}>
-        {item.photo ? <img src={item.photo} alt="" className="h-full w-full object-contain p-2" /> : null}
+      <div className={`relative aspect-[16/9] overflow-hidden bg-cream ${item.image}`}>
+        {item.photo ? <img src={item.photo} alt="" className="h-full w-full object-cover object-center" /> : null}
         <div className="absolute left-4 top-4 rounded-full bg-white px-3 py-1 text-xs font-black text-navy shadow-sm">{item.badge ?? (item.new ? "New" : "Fresh")}</div>
       </div>
       <div className="space-y-3 p-4">
