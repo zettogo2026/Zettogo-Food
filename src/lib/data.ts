@@ -92,6 +92,7 @@ export const menuItems: MenuItem[] = [
     allergens: ["soy", "sesame"],
     description: "Soft tofu, chili bean sauce, scallions, and wok heat.",
     image: "bg-gradient-to-br from-red-100 via-white to-orange-100",
+    photo: "/images/mapo-tofu.png",
     badge: "Veg"
   },
   {
@@ -103,7 +104,8 @@ export const menuItems: MenuItem[] = [
     spice: 0,
     allergens: ["sesame"],
     description: "Fresh green beans wok-tossed with sesame and garlic.",
-    image: "bg-gradient-to-br from-green-100 via-white to-blue-50"
+    image: "bg-gradient-to-br from-green-100 via-white to-blue-50",
+    photo: "/images/garlic-green-beans.png"
   },
   {
     id: "fried-rice",
@@ -115,6 +117,7 @@ export const menuItems: MenuItem[] = [
     allergens: ["egg", "soy"],
     description: "Rice, egg, peas, carrots, scallion, and light soy.",
     image: "bg-gradient-to-br from-yellow-100 via-white to-orange-50",
+    photo: "/images/egg-fried-rice.png",
     popular: true
   },
   {
@@ -126,7 +129,8 @@ export const menuItems: MenuItem[] = [
     spice: 0,
     allergens: ["wheat", "soy"],
     description: "Noodles with cabbage, celery, onion, and house sauce.",
-    image: "bg-gradient-to-br from-amber-100 via-white to-blue-50"
+    image: "bg-gradient-to-br from-amber-100 via-white to-blue-50",
+    photo: "/images/chow-mein.png"
   },
   {
     id: "spring-rolls",
@@ -137,7 +141,8 @@ export const menuItems: MenuItem[] = [
     spice: 0,
     allergens: ["wheat"],
     description: "Crisp rolls with cabbage, carrot, mushroom, and sweet chili.",
-    image: "bg-gradient-to-br from-orange-100 via-white to-yellow-50"
+    image: "bg-gradient-to-br from-orange-100 via-white to-yellow-50",
+    photo: "/images/spring-rolls.png"
   },
   {
     id: "crabless-rangoons",
@@ -148,7 +153,8 @@ export const menuItems: MenuItem[] = [
     spice: 0,
     allergens: ["milk", "wheat"],
     description: "Golden wontons filled with scallion cream cheese.",
-    image: "bg-gradient-to-br from-yellow-100 via-white to-blue-50"
+    image: "bg-gradient-to-br from-yellow-100 via-white to-blue-50",
+    photo: "/images/crispy-wontons.png"
   },
   {
     id: "jasmine-iced-tea",
@@ -159,7 +165,8 @@ export const menuItems: MenuItem[] = [
     spice: 0,
     allergens: [],
     description: "Lightly sweet jasmine tea served cold.",
-    image: "bg-gradient-to-br from-blue-100 via-white to-cyan-100"
+    image: "bg-gradient-to-br from-blue-100 via-white to-cyan-100",
+    photo: "/images/iced-lemon-tea.png"
   },
   {
     id: "mandarin-sparkler",
@@ -171,6 +178,7 @@ export const menuItems: MenuItem[] = [
     allergens: [],
     description: "Citrus soda with mandarin and lime.",
     image: "bg-gradient-to-br from-orange-100 via-white to-blue-100",
+    photo: "/images/orange-soda.png",
     new: true
   }
 ];

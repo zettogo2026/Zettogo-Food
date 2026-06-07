@@ -1,0 +1,21 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.9.0
+2 info using node@v24.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Liu__\Documents\Codex\2026-06-06\files-mentioned-by-the-user-chatgpt-2\Zettogo Food\.npmrc
+5 silly config load:file:C:\Users\Liu__\AppData\Roaming\npm\etc\npmrc
+6 verbose title npm exec plugins add vercel/vercel-plugin
+7 verbose argv "exec" "--cache" ".\\.npm-cache" "--" "plugins" "add" "vercel/vercel-plugin"
+8 verbose logfile logs-max:10 dir:C:\Users\Liu__\Documents\Codex\2026-06-06\files-mentioned-by-the-user-chatgpt-2\Zettogo Food\.npm-cache\_logs\2026-06-07T05_54_55_990Z-
+9 verbose logfile C:\Users\Liu__\Documents\Codex\2026-06-06\files-mentioned-by-the-user-chatgpt-2\Zettogo Food\.npm-cache\_logs\2026-06-07T05_54_55_990Z-debug-0.log
+10 silly logfile done cleaning log files
+11 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+12 http fetch GET 200 https://registry.npmjs.org/plugins 75ms (cache revalidated)
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+15 verbose cwd C:\Users\Liu__\Documents\Codex\2026-06-06\files-mentioned-by-the-user-chatgpt-2\Zettogo Food
+16 verbose os Windows_NT 10.0.26200
+17 verbose node v24.14.0
+18 verbose npm  v11.9.0
+19 verbose exit 1
+20 verbose code 1
